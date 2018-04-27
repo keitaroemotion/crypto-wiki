@@ -8,6 +8,7 @@ Ethereum Network. You can mine/transfer the ether with it.
 There is no man page for this script, and you have to grep through the go-ethereum
 code what these are, but:
 
+```
 --mine:                     mine ethereum
 --minerthreads:             the amount of miners simultaneously work
 --rpc:                      remote process call
@@ -19,3 +20,4 @@ code what these are, but:
                             conflict + duplication among the global datadir so omitting
                             this option can solve the bug sometimes.
 --password [password]:      if the error asks for the account's password, just put it.
+```
